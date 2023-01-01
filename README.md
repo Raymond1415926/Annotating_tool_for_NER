@@ -40,17 +40,17 @@ Respond "Sure" if you understand and are ready for the text input."
 You should see gpt respond "sure".
 Feel free to change the definition of the labels, but do not change the rules of the output, as gpt need such detailed instructions
 
-#2.Copy the text you want to label into GPT, wait for its response
+# 2.Copy the text you want to label into GPT, wait for its response
 
-#3.Copy what gpt returns, and put it in a txt file. Each copy need to be followed by "\n\n"
+# 3.Copy what gpt returns, and put it in a txt file. Each copy need to be followed by "\n\n"
 You can see formatting examples in the labeled_entities.txt file
 
-#4.Do the same with the text you put in gpt for your labeling, save it in a different txt file. You MUST follow the format:
+# 4.Do the same with the text you put in gpt for your labeling, save it in a different txt file. You MUST follow the format:
 In each chunck of text, you should get rid of all the "\n"
 At the end of the text, you should add "\n\n"
 
-#5. Make sure your enteries in the text file is one-to-one matching with the enteries in the labeled entities file:
+# 5. Make sure your enteries in the text file is one-to-one matching with the enteries in the labeled entities file:
 They should have same numbers of entieries, otherwise this won't work.
 
-#6. Open the quick_annotator.ext and drag and drop, hit submit, the program will return a .json file in the directory you specified.
+# 6. Open the quick_annotator.ext and drag and drop, hit submit, the program will return a .json file in the directory you specified.
 
