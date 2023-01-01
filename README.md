@@ -4,7 +4,7 @@ A detailed tutorial is also uploaded, see Annotator_Tutorial.mp4
 
 # 1. Open gpt, and copy the following instructions for him:
 
-"Labeling entities in a text according to the following categories: TECH_KNOWLEDGE, MAJOR, SOFTWARE, SOFT_SKILLS, PROGRAMMING_LANGUAGE:
+```Labeling entities in a text according to the following categories: TECH_KNOWLEDGE, MAJOR, SOFTWARE, SOFT_SKILLS, PROGRAMMING_LANGUAGE:
 
 TECH_KNOWLEDGE: This category includes technical terms, jargons, and theories that relate to a specific field or discipline. Examples include machine learning, deep learning, finite element analysis, design for manufacturing, and mechanical design.
 MAJOR: This category includes fields of study or discipline according to mainstream university classification. Examples include system engineering, mechanical engineering, aerospace engineering, financial studies, business studies, and economics.
@@ -35,7 +35,7 @@ MAJOR: computer science#PROGRAMMING_LANGUAGE: C++#SOFTWARE: SolidWorks
 
 In the next input of this chat, I will be providing the text (this input is the description only, none of the text in this input)
 Again, you should only consider texts within the next input, nothing else, stricktly forbidden to include older inputs as part of this extraction.
-Respond "Sure" if you understand and are ready for the text input."
+Respond "Sure" if you understand and are ready for the text input.```
 
 You should see gpt respond "sure".
 Feel free to change the definition of the labels, but do not change the rules of the output, as gpt need such detailed instructions
