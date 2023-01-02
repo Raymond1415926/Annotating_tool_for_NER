@@ -1,0 +1,7 @@
+MAJOR: computer science#PROGRAMMING_LANGUAGE: C++#SOFTWARE: SolidWorks
+
+PROGRAMMING_LANGUAGE: Python#TECH_KNOWLEDGE: machine learning
+
+SOFT_SKILLS: communication, presentation skills#TECH_KNOWLEDGE: project management
+
+MAJOR: data science#TECH_KNOWLEDGE: statistics, data analysis
