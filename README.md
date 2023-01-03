@@ -48,7 +48,7 @@ Respond "Sure" if you understand and are ready for the text input.
 ```
 
 You should see GPT respond "sure".\
-Feel free to change the definition and labels for your specific need, but do not change the rules of the output, as GPT need such detailed instructions\
+Feel free to change the definition and labels for your specific need, but do not change the rules of the output, as GPT need such detailed instructions
 
 ## 2.Copy the text you want to label into GPT, wait for its response
 
@@ -59,22 +59,21 @@ Label&& entity1%%entity2&&@@Label2&& entity1%%entity2. If it is not correct, tel
 
 Each copy need to be followed by "\n\n"\
 Basically, each chunck of labeled entites are separated by an empty space\
-You can see formatting examples in the labeled_entities.txt file\
+You can see formatting examples in the labeled_entities.txt file
 
 ## 4.Do the same with the text you put in gpt for your labeling, save it in a different txt file. You MUST follow the format:
 
 Within each chunck of text, it should not contain any line changes. The program separate chunks by "\n\n".\
-At the end of the text, you should add "\n\n" for the program to read properly.\
+At the end of the text, you should add "\n\n" for the program to read properly.
 
 ## 5. Make sure your text and labels are one-to-one:
 
 Text chunks and label chuncks should have the same number. Otherwise it won't work.\
-If you have 100 chunks in the text, you should also have 100 chunks in the labeling.\
+If you have 100 chunks in the text, you should also have 100 chunks in the labeling.
 
 ## 6. Generate the .json, easy for you to create dataset.
 
 Open the quick_annotator.exe or run the quick_annotator.py by double click. \
 Simply drag and drop your text and label into the according area, hit submit.\
 You will see a prompt asking you to specify where to save your .json file. Name it, and save.\
-You should see the prompt "process completed successfully".\
-
+You should see the prompt "process completed successfully".
