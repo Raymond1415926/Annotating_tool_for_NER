@@ -77,7 +77,8 @@ If you have 100 chunks in the text, you should also have 100 chunks in the label
 
 ## 6. Generate the .json, easy for you to create dataset.
 
-Open the quick_annotator.exe or run the quick_annotator.py by double click. \
+If you have all the dependencies, you can run the quick_annotator.py by simply double click.
+If you want to run the exe instead, go to dist, double click quick_annotator.exe
 Simply drag and drop your text and label into the according area, hit submit.\
 You will see a prompt asking you to specify where to save your .json file. Name it, and save.\
 You should see the prompt "process completed successfully".
