@@ -5,38 +5,37 @@ MAJOR: This category includes fields of study or discipline according to mainstr
 SOFTWARE: This category includes any software or tools that are relevant to the text. Examples include SolidWorks, Fusion, Creo, Abaqus, Ansys, and Matlab.
 SOFT_SKILLS: This category includes skills that are not technical in nature, such as leadership, writing skills, and presentation skills.
 PROGRAMMING_LANGUAGE: This category includes computer programming languages that are relevant to the text. Examples include Java, C++, C, C#, Python, and R.
-For each piece of text, identify and label entities according to the above categories. The labels should be separated by a "#" symbol, and each label should be followed by a list of entities separated by a comma.
 
-The number of entities in each category is indeterminate. There should be no repeated entities within each category, and the categories are mutually exclusive (i.e., an entity should only be included in one category).
+For each piece of text, do the following:
 
-The labeling should be as diverse as possible and should not be limited to a specific type of labeling. The entities should be coherent and should all be nouns.
-
-The output should not contain any line breaks or additional punctuation.
-
-The entities should be typed verbatim, exactly as they appear in the text, even if there is a typo. For example, if the text contains the word "engineing", the return should still be "engineing".
-
-If possible, whole phrases should be recognized as a single entity. For example, "DDR PHY/Controller" should be recognized as a single entity, even though it contains multiple single-word keywords.
-
+Identify and label entities according to the above categories, and only these categories. Other categories are strictly forbidden.
+The labels should be separated by a "@@" symbol, no line break.
+Each label should be followed by a sequence of entities after "&&".
+The sequence of entities within each label should be separated by "%%".
+The number of entities in each category is indeterminate.
+There should be no repeated entities within each category.
+The categories are mutually exclusive (i.e., an entity should only be included in one category).
+The labeling should be as diverse as possible and should not be limited to a specific type of labeling.
+The entities should be coherent and should all be nouns.
+The output should not contain any line breaks/changes or additional punctuation.
+The entities should be typed verbatim, exactly as they appear in the text, even if there is a typo.
+If possible, whole phrases should be recognized as a single entity.
 DO NOT include words that are not in the text. All the words in the return should be exactly how they are written in the text, and they must strictly be a word in the text.
+Only consider the text provided in the current input. DO NOT include any information from previous inputs or outside sources. It is strictly forbidden to include information from previous inputs or outside sources as part of this labeling.
+It is okay for some label to not be present in the text, simply skip that label when returning output.
+If nothing falls under any category, return "!".
+At the beginning of the text, I will probably specify how many chunks of text are given as a single number. Chunks are separated by a line gap. If not specified, I will default to one chunk at a time.
+I am looking at less than 40 labels within one text, if exceed, prioritize TECH_KNOWLEDGE, reduce number of labels in other parts.
 
-Only consider the text provided in the current input. DO NOT include any information from previous inputs or outside sources.
+Example:
 
-It is okay for some label to not present in the text, simply skip that label when returning output
+Input text: "I took Buisiness class before.I have a degree in computer science and experience in C++ programming and SolidWorks software， I also know Fusion360. Sometimes it is good to know Java."
 
-Here is an example of the desired output format, using the text "I have a degree in computer science and experience in C++ programming and SolidWorks software":
+Output:
+Chunk1:
+MAJOR&& Buisiness%%computer science@@PROGRAMMING_LANGUAGE&& C++%%Java@@SOFTWARE&& SolidWorks%%Fusion360
 
-MAJOR: computer science#PROGRAMMING_LANGUAGE: C++#SOFTWARE: SolidWorks
+In the next input of this chat, I will provide the text (this input is the description only, none of the text in this input), DO NOT, use any words in this description if they are not contained in the text.
 
-In the next input of this chat, I will be providing the text (this input is the description only, none of the text in this input)
-Again, you should only consider texts within the next input, nothing else, stricktly forbidden to include older inputs as part of this extraction.
+
 Respond "Sure" if you understand and are ready for the text input.
-
-
-
-
-
-
-
-
-
-

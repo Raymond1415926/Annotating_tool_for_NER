@@ -1,20 +1,24 @@
 import json
 
 def categorize_entities(text, labeled_entities):
-    # Split the labeled entities string by the '#' symbol
-    categories = labeled_entities.split('#')
+    #if nothing is in the labeled entites
+    if labeled_entities == "!":
+        return [(0, 0, "")]
 
+    # Split the labeled entities string by the '@@' symbol
+    categories = labeled_entities.split('@@')
     # Initialize an empty list to store the tuples
     tuples = []
     # Iterate over the categories
     for category in categories:
-        # Split the category string by the ':' symbol to get the category label and the list of entities
-        label, entity_string = category.split(':')
+        # Split the category string by the '&&' symbol to get the category label and the list of entities
+        print(category, "ent")
+        label, entity_string = category.split('&&')
         # Strip any leading or trailing whitespace from the label and entity string
         label = label.strip()
         entity_string = entity_string.strip()
-        # Split the entity string by the ',' symbol to get a list of entities
-        entities = entity_string.split(',')
+        # Split the entity string by the '%%' symbol to get a list of entities
+        entities = entity_string.split('%%')
         # Strip any leading or trailing whitespace from each entity
         entities = [entity.strip() for entity in entities]
         # Add a tuple for each entity in the list, with the start and end character spans,
@@ -24,6 +28,8 @@ def categorize_entities(text, labeled_entities):
             end = start + len(entity)
             if start != -1:
                 tuples.append((start, end, label))
+            else:
+                tuples.append((0,0,""))
     combined_tuple = {"content":text,"entities":tuples}
     # Return the list of tuples
     return combined_tuple
@@ -35,7 +41,8 @@ def make_train_data(text_file_path, labeled_entities_file_path,output_file_path)
     train_data = []
 
     # Open the text file and labeled entities file for reading
-    with open(text_file_path, 'r') as text_file, open(labeled_entities_file_path, 'r') as labeled_entities_file:
+    with open(text_file_path, 'r', encoding='utf-8') as text_file, \
+            open(labeled_entities_file_path, 'r', encoding='utf-8') as labeled_entities_file:
         # Iterate over the lines in the text file and labeled entities file
         text_list = text_file.read().split('\n\n')
         labeled_entities_list = labeled_entities_file.read().split('\n\n')
@@ -47,13 +54,6 @@ def make_train_data(text_file_path, labeled_entities_file_path,output_file_path)
             data = categorize_entities(text, labeled_entities)
             # Append the returned data to the train_data list
             train_data.append(data)
-    print(output_file_path)
     with open(output_file_path, 'w') as output_file:
         # Write the train data as a JSON object to the output file
         json.dump(train_data, output_file)
-
-# text = "text.txt"
-# labeled_entities = "labeled_entities.txt"
-# output_file_path = "test.json"
-#
-# make_train_data(text,labeled_entities,output_file_path)
