@@ -65,7 +65,7 @@ You can see formatting examples in the labeled_entities.txt file
 ## 4.Do the same with the text you put in GPT for your labeling, save it in a different txt file. 
 
 
-You MUST follow the format:\
+You MUST follow the format:
 
 Within each chunck of text, it should not contain any line changes. The program separate chunks by "\n\n".\
 At the end of the text, you should add "\n\n" for the program to read properly.
