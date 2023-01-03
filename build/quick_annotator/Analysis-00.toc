@@ -380,6 +380,10 @@
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\_py_abc.py',
    'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\stringprep.py',
+   'PYMODULE'),
   ('tempfile',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tempfile.py',
@@ -424,10 +428,6 @@
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\http\\client.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tracemalloc.py',
-   'PYMODULE'),
   ('subprocess',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\subprocess.py',
@@ -436,9 +436,9 @@
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\signal.py',
    'PYMODULE'),
-  ('stringprep',
+  ('tracemalloc',
    'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\stringprep.py',
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('PyQt5',
    'C:\\Users\\Raymond '
@@ -464,8 +464,21 @@
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\json\\scanner.py',
    'PYMODULE')],
- [('api-ms-win-crt-heap-l1-1-0.dll',
+ [('VCRUNTIME140.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
    'C:\\Program Files\\usbipd-win\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-crt-math-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-runtime-l1-1-0.dll',
    'C:\\Program Files\\usbipd-win\\api-ms-win-crt-runtime-l1-1-0.dll',
@@ -474,31 +487,21 @@
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\python310.dll',
    'BINARY'),
-  ('VCRUNTIME140.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\VCRUNTIME140.dll',
-   'BINARY'),
-  ('api-ms-win-crt-math-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-crt-math-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-crt-locale-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-stdio-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-crt-stdio-l1-1-0.dll',
-   'BINARY'),
-  ('ucrtbase.dll', 'C:\\Program Files\\usbipd-win\\ucrtbase.dll', 'BINARY'),
   ('api-ms-win-crt-string-l1-1-0.dll',
    'C:\\Program Files\\usbipd-win\\api-ms-win-crt-string-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-crt-time-l1-1-0.dll',
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('ucrtbase.dll', 'C:\\Program Files\\usbipd-win\\ucrtbase.dll', 'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-crt-environment-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-process-l1-1-0.dll',
    'C:\\Program Files\\usbipd-win\\api-ms-win-crt-process-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-crt-convert-l1-1-0.dll',
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-crt-time-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-conio-l1-1-0.dll',
    'C:\\Program Files\\usbipd-win\\api-ms-win-crt-conio-l1-1-0.dll',
@@ -506,11 +509,11 @@
   ('api-ms-win-crt-filesystem-l1-1-0.dll',
    'C:\\Program Files\\usbipd-win\\api-ms-win-crt-filesystem-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-environment-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-crt-environment-l1-1-0.dll',
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-core-profile-l1-1-0.dll',
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-core-sysinfo-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-file-l1-2-0.dll',
    'C:\\Program Files\\usbipd-win\\api-ms-win-core-file-l1-2-0.dll',
@@ -518,9 +521,20 @@
   ('api-ms-win-core-synch-l1-1-0.dll',
    'C:\\Program Files\\usbipd-win\\api-ms-win-core-synch-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\usbipd-win\\api-ms-win-core-processenvironment-l1-1-0.dll',
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
   ('api-ms-win-core-synch-l1-2-0.dll',
    'C:\\Program Files\\usbipd-win\\api-ms-win-core-synch-l1-2-0.dll',
@@ -531,33 +545,6 @@
   ('api-ms-win-core-errorhandling-l1-1-0.dll',
    'C:\\Program Files\\usbipd-win\\api-ms-win-core-errorhandling-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-core-memory-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-localization-l1-2-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-core-localization-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-1.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-core-processthreads-l1-1-1.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-core-sysinfo-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-core-file-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-core-util-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-core-heap-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-libraryloader-l1-1-0.dll',
    'C:\\Program Files\\usbipd-win\\api-ms-win-core-libraryloader-l1-1-0.dll',
    'BINARY'),
@@ -567,30 +554,51 @@
   ('api-ms-win-core-timezone-l1-1-0.dll',
    'C:\\Program Files\\usbipd-win\\api-ms-win-core-timezone-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-core-processthreads-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-core-datetime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-fibers-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-core-fibers-l1-1-0.dll',
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-core-heap-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-handle-l1-1-0.dll',
    'C:\\Program Files\\usbipd-win\\api-ms-win-core-handle-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-core-interlocked-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l2-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-core-file-l2-1-0.dll',
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-core-datetime-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-namedpipe-l1-1-0.dll',
    'C:\\Program Files\\usbipd-win\\api-ms-win-core-namedpipe-l1-1-0.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\usbipd-win\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-core-fibers-l1-1-0.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
    'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
    'C:\\Users\\Raymond '
@@ -600,77 +608,69 @@
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
-   'BINARY'),
   ('PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\bin\\libGLESv2.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libGLESv2.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\libEGL.dll',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libEGL.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+  ('PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
    'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+  ('PyQt5\\Qt5\\bin\\opengl32sw.dll',
    'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\opengl32sw.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\libGLESv2.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libGLESv2.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\bin\\opengl32sw.dll',
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
    'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\opengl32sw.dll',
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+  ('PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
    'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
    'BINARY'),
   ('_decimal.pyd',
    'C:\\Users\\Raymond '
@@ -720,52 +720,52 @@
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\sip.cp310-win_amd64.pyd',
    'EXTENSION'),
-  ('PyQt5\\Qt5\\bin\\Qt5Gui.dll',
+  ('PyQt5\\Qt5\\bin\\Qt5Quick.dll',
    'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\bin\\Qt5Core.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\bin\\Qt5DBus.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5DBus.dll',
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Quick.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5Network.dll',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Network.dll',
    'BINARY'),
-  ('api-ms-win-crt-utility-l1-1-0.dll',
-   'C:\\Program Files\\usbipd-win\\api-ms-win-crt-utility-l1-1-0.dll',
-   'BINARY'),
-  ('VCRUNTIME140_1.dll',
+  ('PyQt5\\Qt5\\bin\\Qt5Core.dll',
    'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\VCRUNTIME140_1.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\bin\\MSVCP140.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\bin\\Qt5Quick.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Quick.dll',
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+  ('PyQt5\\Qt5\\bin\\Qt5Gui.dll',
    'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\MSVCP140.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\VCRUNTIME140_1.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program Files\\usbipd-win\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5DBus.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5DBus.dll',
    'BINARY'),
   ('libcrypto-1_1.dll',
    'C:\\Users\\Raymond '
@@ -779,10 +779,6 @@
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\python3.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\bin\\MSVCP140_1.dll',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140_1.dll',
-   'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5Qml.dll',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Qml.dll',
@@ -790,6 +786,10 @@
   ('PyQt5\\Qt5\\bin\\Qt5QmlModels.dll',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5QmlModels.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\MSVCP140_1.dll',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140_1.dll',
    'BINARY')],
  [],
  [],
@@ -798,85 +798,21 @@
    'profolio\\profolio\\Annotating tool for '
    'NER\\build\\quick_annotator\\base_library.zip',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+  ('PyQt5\\Qt5\\translations\\qtbase_pl.qm',
    'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ca.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ko.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ko.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ar.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ar.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_bg.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_bg.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ja.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_pl.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qtbase_de.qm',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_de.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_en.qm',
+  ('PyQt5\\Qt5\\translations\\qtbase_it.qm',
    'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_en.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_pl.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_pl.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_lv.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_it.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qtbase_fi.qm',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fi.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ru.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ru.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_es.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_es.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_gd.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_gd.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_sk.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_sk.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_tr.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_tr.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_fr.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fr.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_cs.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_cs.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_uk.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_uk.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_da.qm',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_da.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qtbase_hu.qm',
    'C:\\Users\\Raymond '
@@ -886,8 +822,72 @@
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_he.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_it.qm',
+  ('PyQt5\\Qt5\\translations\\qtbase_gd.qm',
    'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_it.qm',
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_es.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_uk.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fr.qm',
    'DATA')],
  [])

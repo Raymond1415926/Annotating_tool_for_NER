@@ -340,6 +340,10 @@
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\_py_abc.py',
    'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Raymond '
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\stringprep.py',
+   'PYMODULE'),
   ('tempfile',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tempfile.py',
@@ -384,10 +388,6 @@
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\http\\client.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tracemalloc.py',
-   'PYMODULE'),
   ('subprocess',
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\subprocess.py',
@@ -396,9 +396,9 @@
    'C:\\Users\\Raymond '
    'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\signal.py',
    'PYMODULE'),
-  ('stringprep',
+  ('tracemalloc',
    'C:\\Users\\Raymond '
-   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\stringprep.py',
+   'Huang\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('PyQt5',
    'C:\\Users\\Raymond '
