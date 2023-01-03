@@ -4,6 +4,7 @@ A detailed tutorial is also uploaded, see Annotator_Tutorial.mp4
 
 ## 1. Open gpt, and copy the following instructions for him:
 
+Here is the link to GPT: https://chat.openai.com/chat
 ```
 Labeling entities in a text according to the following categories: TECH_KNOWLEDGE, MAJOR, SOFTWARE, SOFT_SKILLS, PROGRAMMING_LANGUAGE:
 
