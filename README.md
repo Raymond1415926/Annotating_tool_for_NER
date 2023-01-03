@@ -65,7 +65,7 @@ You can see formatting examples in the labeled_entities.txt file
 ## 4.Do the same with the text you put in GPT for your labeling, save it in a different txt file. 
 
 
-You MUST follow the format:\
+You MUST follow the format:
 
 Within each chunck of text, it should not contain any line changes. The program separate chunks by "\n\n".\
 At the end of the text, you should add "\n\n" for the program to read properly.
@@ -77,7 +77,8 @@ If you have 100 chunks in the text, you should also have 100 chunks in the label
 
 ## 6. Generate the .json, easy for you to create dataset.
 
-Open the quick_annotator.exe or run the quick_annotator.py by double click. \
+If you have all the dependencies, you can run the quick_annotator.py by simply double click.\
+If you want to run the exe instead, go to dist, double click quick_annotator.exe\
 Simply drag and drop your text and label into the according area, hit submit.\
 You will see a prompt asking you to specify where to save your .json file. Name it, and save.\
 You should see the prompt "process completed successfully".
