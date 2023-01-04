@@ -53,7 +53,7 @@ Feel free to change the definition and labels for your specific need, but do not
 
 ## 2.Copy the text you want to label into GPT, wait for its response
 
-The output should be in the format:\
+The output should be in the format:
 ```
 Label&& entity1%%entity2&&entity3%%...%%entity_n@@Label2&& entity1%%entity2...
 ```
