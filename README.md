@@ -54,7 +54,10 @@ Feel free to change the definition and labels for your specific need, but do not
 ## 2.Copy the text you want to label into GPT, wait for its response
 
 The output should be in the format:\
-Label&& entity1%%entity2&&@@Label2&& entity1%%entity2. If it is not correct, tell GPT what is wrong and let it redo.\
+```
+Label&& entity1%%entity2&&@@Label2&& entity1%%entity2\
+```
+If it is not correct, tell GPT what is wrong and let it redo.
 
 ## 3.Copy what gpt returns, and put it in a txt file. 
 
