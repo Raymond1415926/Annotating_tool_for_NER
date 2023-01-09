@@ -16,6 +16,7 @@ def categorize_entities(text, labeled_entities):
             label, entity_string = category.split('&&')
         except:
             raise Exception(f"This doesn't split into label and entity: {category}")
+
         # Strip any leading or trailing whitespace from the label and entity string
         label = label.strip()
         entity_string = entity_string.strip()
