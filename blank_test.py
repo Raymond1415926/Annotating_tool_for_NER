@@ -1,12 +1,11 @@
 
-path = "test_resume.txt"
-path_label = "test_labels.txt"
+path = r"C:\Users\Raymond Huang\Downloads\TeslaJD_Eric_1.3_2.txt"
 
-with open('test_resume.txt','r',encoding='utf-8') as f:
-    for index, line in enumerate(f):
-        if "PRASHANTH BADALAD" in line:
-            print(index)
-            break
+with open(path,'r',encoding='utf-8') as f:
+    text = f.read()
+    sentences = text.split("\n\n")
 
-with open('test_labels.txt','r',encoding='utf-8') as f:
-    print(f.readlines()[20])
+    part = '\n\n'.join(sentence for sentence in sentences[0:186])
+
+with open("Eric.txt",'w',encoding='utf-8') as f:
+    f.write(part)

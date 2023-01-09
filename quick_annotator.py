@@ -147,12 +147,18 @@ class FileProcessorApp(QtWidgets.QMainWindow):
         save_directory = QtWidgets.QFileDialog.getSaveFileName(self, 'Save File','','*.json')[0]
 
         # Open the files and do something with their contents
-        make_train_data(self.file1_path,self.file2_path,save_directory)
-
-        message_box = QtWidgets.QMessageBox(self)
-        message_box.setWindowTitle('Success')
-        message_box.setText('Processing completed successfully')
-        message_box.exec_()
+        try:
+            make_train_data(self.file1_path,self.file2_path,save_directory)
+        except Exception as e:
+            message_box = QtWidgets.QMessageBox(self)
+            message_box.setWindowTitle('Fail')
+            message_box.setText(e.args[0])
+            message_box.exec_()
+        else:
+            message_box = QtWidgets.QMessageBox(self)
+            message_box.setWindowTitle('Success')
+            message_box.setText('Processing completed successfully')
+            message_box.exec_()
 
         self.reset_file_upload_boxes()
 

@@ -12,8 +12,10 @@ def categorize_entities(text, labeled_entities):
     # Iterate over the categories
     for category in categories:
         # Split the category string by the '&&' symbol to get the category label and the list of entities
-        print(category, "ent")
-        label, entity_string = category.split('&&')
+        try:
+            label, entity_string = category.split('&&')
+        except:
+            raise Exception(f"This doesn't split into label and entity: {category}")
         # Strip any leading or trailing whitespace from the label and entity string
         label = label.strip()
         entity_string = entity_string.strip()
@@ -39,13 +41,17 @@ import os
 def make_train_data(text_file_path, labeled_entities_file_path,output_file_path):
     # Initialize an empty list to store the train data
     train_data = []
-
     # Open the text file and labeled entities file for reading
     with open(text_file_path, 'r', encoding='utf-8') as text_file, \
             open(labeled_entities_file_path, 'r', encoding='utf-8') as labeled_entities_file:
         # Iterate over the lines in the text file and labeled entities file
         text_list = text_file.read().split('\n\n')
         labeled_entities_list = labeled_entities_file.read().split('\n\n')
+
+        if len(text_list) != len(labeled_entities_list):
+            print(len(text_list),"text len \t", len(labeled_entities_list), "label len \t")
+            raise ValueError("The two are not matching in length")
+
         for text, labeled_entities in zip(text_list,labeled_entities_list):
             # Strip any leading or trailing whitespace from the text and labeled entities strings
             text = text.strip()
