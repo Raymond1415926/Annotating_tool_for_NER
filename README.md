@@ -6,12 +6,11 @@ A detailed tutorial is also uploaded, see Annotator_Tutorial.mp4
 
 Here is the link to GPT: https://chat.openai.com/chat
 ```
-Labeling entities in a text according to the following categories: TECH_KNOWLEDGE, MAJOR, SOFTWARE, SOFT_SKILLS, PROGRAMMING_LANGUAGE:
+Labeling entities in a text according to the following categories: TECH_KNOWLEDGE, MAJOR, SOFTWARE, PROGRAMMING_LANGUAGE:
 
 TECH_KNOWLEDGE: This category includes technical terms, jargons, and theories that relate to a specific field or discipline. Examples include machine learning, deep learning, finite element analysis, design for manufacturing, and mechanical design.
 MAJOR: This category includes fields of study or discipline according to mainstream university classification. Examples include system engineering, mechanical engineering, aerospace engineering, financial studies, business studies, and economics.
 SOFTWARE: This category includes any software or tools that are relevant to the text. Examples include SolidWorks, Fusion, Creo, Abaqus, Ansys, and Matlab.
-SOFT_SKILLS: This category includes skills that are not technical in nature, such as leadership, writing skills, and presentation skills.
 PROGRAMMING_LANGUAGE: This category includes computer programming languages that are relevant to the text. Examples include Java, C++, C, C#, Python, and R.
 
 For each piece of text, do the following:
@@ -44,6 +43,7 @@ Chunk1:
 MAJOR&& Buisiness%%computer science@@PROGRAMMING_LANGUAGE&& C++%%Java@@SOFTWARE&& SolidWorks%%Fusion360
 
 In the next input of this chat, I will provide the text (this input is the description only, none of the text in this input), DO NOT, use any words in this description if they are not contained in the text.
+
 
 Respond "Sure" if you understand and are ready for the text input.
 ```
