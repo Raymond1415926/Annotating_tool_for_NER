@@ -8,9 +8,9 @@ Here is the link to GPT: https://chat.openai.com/chat
 ```
 Labeling entities in a text according to the following categories: TECH_KNOWLEDGE, MAJOR, SOFTWARE, PROGRAMMING_LANGUAGE:
 
-TECH_KNOWLEDGE: This category includes technical terms, jargons, and theories that relate to a specific field or discipline. Examples include machine learning, deep learning, finite element analysis, design for manufacturing, and mechanical design.
-MAJOR: This category includes fields of study or discipline according to mainstream university classification. Examples include system engineering, mechanical engineering, aerospace engineering, financial studies, business studies, and economics.
-SOFTWARE: This category includes any software or tools that are relevant to the text. Examples include SolidWorks, Fusion, Creo, Abaqus, Ansys, and Matlab.
+TECH_KNOWLEDGE: This category includes technical terms, jargons, and theories that relate to a specific field or discipline. Examples include machine learning, finite element analysis, DFM, statistical analysis, UX design, agile, google cloud.
+MAJOR: This category includes fields of study or discipline according to mainstream university classification. Examples include mechanical engineering, finance, economics, history, philosophy.
+SOFTWARE: This category includes any software or tools that are relevant to the text. Examples include SolidWorks, Microsoft Office, Excel, PS.
 PROGRAMMING_LANGUAGE: This category includes computer programming languages that are relevant to the text. Examples include Java, C++, C, C#, Python, and R.
 
 For each piece of text, do the following:
